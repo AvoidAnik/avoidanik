@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "382048217889",
+    "firebase_url": "https://chakri-lagbe-34bc7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chakri-lagbe-34bc7",
+    "storage_bucket": "chakri-lagbe-34bc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382048217889:android:e06c5c65bbf43873096c60",
+        "android_client_info": {
+          "package_name": "com.example.chakrilagbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382048217889-gers02jehf8ctverjb8rpa5cbp6j9l5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNCUr0MOgbGhdahWEWlF23FUHSbMo07BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382048217889-gers02jehf8ctverjb8rpa5cbp6j9l5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

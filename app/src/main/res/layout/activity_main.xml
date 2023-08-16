@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/newback"
+
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="934dp"
+        android:layout_x="0dp"
+        android:layout_y="-89dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="Log In"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+
+                android:textColor="@color/teal_700"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email_login"
+                android:layout_width="303dp"
+                android:layout_height="46dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg1"
+
+                android:drawableLeft="@drawable/mm"
+                android:hint="E-mail:"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+
+                android:textColorHint="@color/black"
+
+
+                />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="306dp"
+                android:layout_height="49dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg1"
+                android:drawableLeft="@drawable/pm"
+                android:hint="Password:"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+
+
+                android:textColorHint="@color/black"
+
+                />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="212dp"
+                android:layout_height="38dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:text="Log In"
+                android:textColor="#0B0B0A"
+                android:textStyle="bold"
+
+                app:backgroundTint="#4CAF50" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="OR"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700" />
+
+            <Button
+                android:id="@+id/btn_registration"
+                android:layout_width="210dp"
+                android:layout_height="38dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg"
+                android:text="Registration"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                app:backgroundTint="#4CAF50"
+                app:strokeColor="#000000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
